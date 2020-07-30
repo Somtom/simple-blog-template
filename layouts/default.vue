@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="min-h-screen flex flex-col">
     <Navbar />
     <div
-      class="mx-auto max-w-sm sm:max-w-md md:max-w-lg lg:max-w-3xl xl:max-w-5xl"
+      class="flex-grow mx-auto max-w-sm sm:max-w-md md:max-w-lg lg:max-w-3xl xl:max-w-5xl"
     >
       <Nuxt />
     </div>
